@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?><LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <EditText
+        android:layout_marginTop="10sp"
+        android:id="@+id/et_getKey"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入口令" />
+    
+    
+    <Button
+        android:layout_marginTop="10sp"
+        android:onClick="click1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="生成/还原"
+        />
+    
+
+</LinearLayout>

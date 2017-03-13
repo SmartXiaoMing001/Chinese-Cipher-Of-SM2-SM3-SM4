@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <EditText
+        android:layout_marginTop="10sp"
+        android:id="@+id/et_key_rec"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入秘钥" />
+    
+    <EditText
+        android:layout_marginTop="10sp"
+        android:id="@+id/et_content_rec"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:gravity="top"
+        android:hint="请输入接受的短信内容" />
+    
+    <Button
+        android:layout_marginTop="10sp"
+        android:onClick="click1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="从手机数据库中导入信息"
+        />
+    
+    <Button
+        android:layout_marginTop="10sp"
+        android:onClick="click2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="解密"
+        />
+    
+    
+    
+    
+
+</LinearLayout>
