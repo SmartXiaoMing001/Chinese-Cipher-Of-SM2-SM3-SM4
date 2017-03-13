@@ -1,2 +1,3 @@
 # Chinese-Cipher-Of-SM2-SM3-SM4
-This is an android-project about sending messages after encryption or getting cipher text from message database of mobile phone, u could also get the original points through your secret key
+可以通过该软件对要发送和接收的信息进行相应的加解密，在加解密之前通过数据源先生成秘钥，通过一一对应的秘钥来进行加密和解密。
+也可以自动生成口令，保存到本地内置SD卡的“数据源.txt”中，每次产生1000条数据，可以相应的进行累加
